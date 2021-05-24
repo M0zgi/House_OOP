@@ -1,4 +1,4 @@
-#include"House.h"
+ï»¿#include"House.h"
 
 People::People()
 {
@@ -36,7 +36,7 @@ People::~People()
 inline void People::ShowPeople(int countpeople, People* p)
 {	
 	
-	cout << "ÔÈÎ æèëüöîâ: \n";
+	cout << "Ð¤Ð˜Ðž Ð¶Ð¸Ð»ÑŒÑ†Ð¾Ð²: \n";
 
 	for (size_t i = 0; i < countpeople; i++)
 	{
@@ -65,7 +65,7 @@ void Flat::initFlat(int countflat, People* p)
 
 void Flat::ShowFlat(int countflat, int countpeople, People* p)
 {
-	cout << "Íîìåðà æèëûõ êâàðòèð: ";
+	cout << "ÐÐ¾Ð¼ÐµÑ€Ð° Ð¶Ð¸Ð»Ñ‹Ñ… ÐºÐ²Ð°Ñ€Ñ‚Ð¸Ñ€: ";
 	for (size_t i = 0; i < countflat; i++)
 	{
 		cout << Flat::flat_number[i];
@@ -110,7 +110,7 @@ void House::init(int _h, int countflat, Flat* f)
 
 void House::ShowHouse(int countflat, int countpeople, People* p)
 {
-	cout << "Íîìåð äîìà: " << house_number << endl;
+	cout << "ÐÐ¾Ð¼ÐµÑ€ Ð´Ð¾Ð¼Ð°: " << house_number << endl;
 	HouseFlat->ShowFlat(countflat, countpeople, p);	
 }
 

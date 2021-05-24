@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
@@ -19,10 +19,10 @@ public:
 	People();
 	People(int _countid, const char* _fio);
 
-	//конструктор копирования
+	//РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ
 	People(const People& obj);
 
-	//деструктор
+	//РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 	~People();
 
 	inline void ShowPeople(int countpeople, People* p);
@@ -45,10 +45,10 @@ public:
 
 	void ShowFlat(int countflat, int countpeople, People* p);
 
-	//конструктор копирования
+	//РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ
 	Flat(const Flat& obj);
 
-	//деструктор
+	//РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 	~Flat();
 
 };
@@ -68,9 +68,9 @@ public:
 	void init(int _h, int countflat, Flat* f);
 	void ShowHouse(int countflat, int countpeople, People* p);
 
-	//конструктор копирования
+	//РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ
 	House(const House& obj);
 
-	//деструктор
+	//РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 	~House();
 };
